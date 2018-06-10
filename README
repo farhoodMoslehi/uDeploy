@@ -1,0 +1,10 @@
+This Python program was created to look at a uDeploy agent in either a Linux or Windows environemnt and do the following
+Tasks:
+
+1) Get the Installed.properties and the agent.out files
+2) Restart an offline uDeploy agent
+3) Replace any line within the installed.properties files
+
+The main reason for this script is to troubleshoot uDeploy agents through a server automation system like HPSA or BladeLogic.
+These tools exists in large enterprises in order to access systems without providing a complete access to engineers.
+Furthermore, the script can be run on many servers in parallel, and processes can be automated.
